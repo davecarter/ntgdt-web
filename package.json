@@ -16,26 +16,27 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@schibstedspain/ddd-react-redux": "1",
+    "@schibstedspain/ddd-react-redux": "2",
     "@schibstedspain/rosetta": "3",
     "@schibstedspain/sui-image-lazy-load": "1.4.0",
     "classnames": "2.2.5",
     "firebase": "4.0.0",
-    "material-ui": "0.18.1",
+    "material-ui": "0.18.5",
+    "preact": "^8.1.0",
+    "preact-compat": "^3.16.0",
+    "preact-tap-event-plugin": "^0.1.2",
     "prop-types": "15.5.10",
-    "react": "15.5.4",
-    "react-dom": "15.5.4",
     "react-loadable": "3.3.1",
     "react-router": "4.1.1",
     "react-router-dom": "4.1.1",
-    "react-tap-event-plugin": "2.0.1",
     "react-virtual-list": "2.2.0",
     "recompose": "0.23.4",
     "reset-css": "2.2.0"
   },
   "devDependencies": {
     "@schibstedspain/linting-rules": "1",
-    "@schibstedspain/suistudio-webpack": "3"
+    "@schibstedspain/suistudio-webpack": "3",
+    "babel-plugin-module-resolver": "^2.7.1"
   },
   "suistudio-webpack": {
     "offline": true,
@@ -43,8 +44,9 @@
       "@schibstedspain/ddd-react-redux",
       "@schibstedspain/rosetta",
       "classnames",
-      "react",
-      "react-dom",
+      "firebase",
+      "preact-compat",
+      "preact-tap-event-plugin",
       "react-redux",
       "redux"
     ]
