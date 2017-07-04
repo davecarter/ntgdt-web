@@ -22,7 +22,7 @@ export default compose(
     componentDidMount () {
       this.setState({loading: true})
       firebase.database().ref('/entries').on('value', snapshot => {
-        console.log('Nuevas imagenes', Object.values(snapshot.val()).sort(sortByDate))
+        console.log('Nuevas imagenes', Object.values(snapshot.val()).sort(sortByDate)) // eslint-disable-line
         this.setState({
           items: Object.values(snapshot.val())
                   .sort(sortByDate),
