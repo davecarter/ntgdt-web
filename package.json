@@ -23,9 +23,9 @@
     "classnames": "2.2.5",
     "firebase": "4.0.0",
     "material-ui": "0.18.5",
-    "preact": "^8.1.0",
-    "preact-compat": "^3.16.0",
-    "preact-tap-event-plugin": "^0.1.2",
+    "preact": "8.1.0",
+    "preact-compat": "3.16.0",
+    "preact-tap-event-plugin": "0.1.2",
     "prop-types": "15.5.10",
     "react-loadable": "3.3.1",
     "react-router": "4.1.1",
@@ -37,7 +37,7 @@
   "devDependencies": {
     "@schibstedspain/linting-rules": "1",
     "@schibstedspain/suistudio-webpack": "3",
-    "babel-plugin-module-resolver": "^2.7.1"
+    "babel-plugin-module-resolver": "2.7.1"
   },
   "suistudio-webpack": {
     "offline": {
@@ -46,8 +46,6 @@
     "vendor": [
       "@schibstedspain/ddd-react-redux",
       "@schibstedspain/rosetta",
-      "firebase/app",
-      "firebase/database",
       "classnames",
       "firebase/app",
       "firebase/database",
